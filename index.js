@@ -132,7 +132,6 @@ OSSAdapter.prototype.getFileData = function (filename) {
 // parse-server
 OSSAdapter.prototype.getFileLocation = function (config, filename) {
 
-  //return "https://neter-qd-tellstorytochild.oss-cn-qingdao.aliyuncs.com/a1bd44d0441359a49d1bbedc571cb5a9_nVZaIqKpPv_My5yFudRyN_2017-11-24_17-44-18.caf?Expires=1511522071&OSSAccessKeyId=TMP.AQGbsStsf4u0ClSi_A9aFK8oiMvg_ufu8iR4Gm_8pzAIdGFxOlM_H5JRFLgoADAtAhQlCP7zL2QKNiWddRnk8uOWNpkGuwIVAJxpn8_Kqn2GpzQfYIG4DkOqjWev&Signature=TDJ9aR7jSxk0be5ZaMxu8Nqhi1I%3D";
   var url = this._ossClient.signatureUrl(this._bucketPrefix + filename);
   url = url.replace(/^http:/, "https:");//将http替换为https
   //console.log("--------------");
