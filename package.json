@@ -1,6 +1,6 @@
 {
-  "name": "parse-server-oss-adapter",
-  "version": "0.9.0",
+  "name": "parse-server-oss-adapter2",
+  "version": "2.0.0",
   "description": "Parse server file adapter for aliyun OSS",
   "main": "index.js",
   "scripts": {
