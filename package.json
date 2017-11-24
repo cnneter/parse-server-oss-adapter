@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/cnneter/parse-server-oss-adapter#readme",
   "dependencies": {
-      "ali-oss": "4.11.x"
-    }
+    "ali-oss": "4.11.x"
+  }
 }
