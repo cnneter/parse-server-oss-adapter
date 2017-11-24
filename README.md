@@ -2,7 +2,7 @@
 > parse server file adapter for aliyun OSS
 
 ## Installation
-npm install --save parse-server-oss-adapter
+npm install --save parse-server-oss-adapter2
 
 ## Usage with parse-server
 
